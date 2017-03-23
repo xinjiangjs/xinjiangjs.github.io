@@ -124,10 +124,11 @@ body,
 }
 body {
   background: #fff;
-  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
+  height: calc(100% - 120px);
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 20px;
@@ -346,12 +347,12 @@ body {
   z-index: -1;
 }
 #header-title {
-  height: 1.6em;
+  height: 3.875em;
   position: absolute;
   top: 50%;
   width: auto;
   left: 2%;
-  margin-top: -0.8em;
+  margin-top: -1.9375em;
 }
 @media screen and (max-width: 479px) {
   #header-title {
@@ -382,7 +383,7 @@ body {
   letter-spacing: 1px;
 }
 #subtitle-wrap {
-  margin-top: 14px;
+  margin-top: 2px;
 }
 #main-nav {
   float: right;
@@ -494,7 +495,7 @@ body {
   background: none;
   color: #333;
   width: 200%;
-  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -654,7 +655,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 16px;
   margin: 1.6em 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -861,7 +862,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
   color: #333;
   outline: none;
@@ -1319,7 +1320,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #f5f2f0;
   color: #8e908c;
-  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.85em "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
